@@ -28,8 +28,8 @@ def create_daily_reminder():
 
       reminder_message = message
 
-  return reminder_message
+  # Print the reminder message
+  print(reminder_message)
 
 # Get and print the reminder message
-reminder_message = create_daily_reminder()
-print(reminder_message)
+create_daily_reminder()
